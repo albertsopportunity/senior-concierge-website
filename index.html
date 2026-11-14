@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Senior Concierge provides personalized everyday assistance for seniors and families, including errands, companionship, transportation coordination, and more.">
+  <title>Senior Concierge | Personalized Senior Assistance</title>
+  <style>
+    :root {
+      --green: #124734;
+      --gold: #d8b66a;
+      --cream: #faf8f1;
+      --ink: #24352c;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: var(--ink); background: var(--cream); line-height: 1.6; }
+    header { background: var(--green); color: white; padding: 18px 7%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .brand { color: var(--gold); font-size: 23px; font-weight: bold; letter-spacing: .4px; }
+    nav a { color: white; text-decoration: none; margin-left: 18px; }
+    .hero { background: var(--green); color: white; text-align: center; padding: 95px 8%; }
+    .hero h1 { font-family: Georgia, serif; font-size: clamp(34px, 5vw, 58px); line-height: 1.15; margin: 0 auto 22px; max-width: 800px; }
+    .hero p { max-width: 650px; margin: 0 auto 30px; font-size: 18px; }
+    .button { display: inline-block; background: var(--gold); color: #173b2c; padding: 13px 26px; border-radius: 7px; text-decoration: none; font-weight: bold; }
+    section { padding: 65px 8%; max-width: 1200px; margin: auto; }
+    h2 { font-family: Georgia, serif; font-size: 34px; color: var(--green); text-align: center; }
+    .intro { text-align: center; max-width: 760px; margin: auto; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 35px; }
+    .service { background: white; padding: 25px; border-radius: 12px; border-top: 4px solid var(--gold); box-shadow: 0 3px 15px #0000000b; }
+    .service h3 { color: var(--green); margin-top: 0; }
+    .about { background: #e9eee8; max-width: none; text-align: center; }
+    .about p { max-width: 750px; margin: 0 auto; }
+    .contact { text-align: center; }
+    footer { background: #0b3023; color: white; padding: 28px 8%; text-align: center; }
+    footer a { color: var(--gold); }
+    @media (max-width: 600px) {
+      header { justify-content: center; text-align: center; }
+      nav a { margin: 0 8px; }
+      .hero { padding: 70px 7%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Senior Concierge</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Compassionate Assistance for Everyday Living</h1>
+    <p>Personalized concierge support for seniors and their families. Helping make everyday life simpler, more comfortable, and more connected.</p>
+    <a class="button" href="#services">Explore Our Services</a>
+  </div>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p class="intro">Practical, personalized assistance designed around the needs of seniors and their loved ones.</p>
+    <div class="services">
+      <div class="service"><h3>Errands & Grocery Shopping</h3><p>Assistance with shopping and everyday errands.</p></div>
+      <div class="service"><h3>Transportation</h3><p>Help arranging rides and transportation for appointments and local activities.</p></div>
+      <div class="service"><h3>Companionship</h3><p>Friendly conversation, social connection, and everyday activities.</p></div>
+      <div class="service"><h3>Appointment Scheduling</h3><p>Help organizing appointments and schedules.</p></div>
+      <div class="service"><h3>Light Household Assistance</h3><p>Support with simple household tasks and daily routines.</p></div>
+      <div class="service"><h3>Meal Preparation</h3><p>Help preparing simple meals and organizing meal routines.</p></div>
+      <div class="service"><h3>Technology Assistance</h3><p>Friendly help with smartphones, tablets, and everyday technology.</p></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Senior Concierge</h2>
+    <p>Senior Concierge is operated by Alberts Opportunity LLC. Our mission is to help seniors maintain independence and connection through thoughtful, personalized everyday assistance.</p>
+    <p>Our concierge services are non-medical and do not replace licensed medical or emergency services.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Connect With Us</h2>
+    <p>Interested in learning more about Senior Concierge services?</p>
+    <p>Contact information and app availability details will be announced soon.</p>
+  </section>
+
+  <footer>
+    <p>Senior Concierge | Operated by Alberts Opportunity LLC</p>
+    <p>&copy; 2026 Senior Concierge. All rights reserved.</p>
+  </footer>
+</body>
+</html>
